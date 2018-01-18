@@ -1,0 +1,21 @@
+{
+    "name": "kittenphp/pipeline",
+    "description": "Pipeline simple implementation，Convert Symfony http request to response",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "kittenphp",
+            "email": "kittenphp@hotmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.0",
+        "symfony/http-foundation": "^3.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "kitten\\Component\\pipeline\\": "src/"
+        }
+    }
+}
